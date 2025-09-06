@@ -11,6 +11,6 @@ public class Democontroller {
 
     @GetMapping("/test")
     public String hello() {
-        return "hello";
+        return "hello,word";
     }
 }
